@@ -48,30 +48,6 @@ The application continuously reads frames from the webcam and compares them with
 
 ---
 
-## Project Structure
-
-motion-detector/
-
-├── main.py
-├── config.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-├── .env
-
-├── utils/
-│ ├── detector.py
-│ └── recorder.py
-
-├── alerts/
-│ ├── sound_alert.py
-│ └── email_alert.py
-
-├── output/
-│ ├── recordings/
-│ └── snapshots/
-
----
 
 ## Installation
 
