@@ -1,0 +1,30 @@
+# config.py
+
+# Camera
+CAMERA_INDEX = 0
+
+# Motion detection
+MIN_CONTOUR_AREA = 1200
+BLUR_SIZE = (21, 21)
+THRESHOLD_VALUE = 25
+DILATE_ITERATIONS = 2
+
+# Recording
+RECORD_ON_MOTION = True
+SNAPSHOT_ON_MOTION = True
+
+RECORDING_FPS = 20.0
+RECORDING_CODEC = "mp4v"
+RECORDING_FORMAT = ".mp4"
+
+# Cooldown after motion stops
+MOTION_COOLDOWN = 3
+
+# Alerts
+PLAY_SOUND_ALERT = True
+
+# Display
+SHOW_FPS = True
+
+FRAME_WIDTH = 640
+FRAME_HEIGHT = 480
